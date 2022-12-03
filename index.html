@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Todolist</title>
+</head>
+
+<body>
+    <div id="todolist">
+        <form method="post" action="" id="add_task" class="task-head">
+            <input type="text" name="task" id="task" placeholder="Enter your task.." autocomplete="off">
+            <button>ADD TASK</button>
+        </form>
+        <div class="task-body">
+            <ul class="tasks"></ul>
+            <div id="result">
+                <span class="task-result"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
